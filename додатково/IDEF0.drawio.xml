@@ -1,0 +1,334 @@
+<mxfile host="app.diagrams.net" modified="2024-05-26T05:36:15.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_brST7HO7eJFduIa6Yjm" version="24.4.8" type="device">
+  <diagram id="IJI_fsj4nyBz1e2R6Z6J" name="Сторінка-1">
+    <mxGraphModel dx="2440" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AORsJXLqN-FmiDHzJNlS-1" value="Реалізувати ввід заданого слова" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-2" value="Розробити другорядні елементи програми" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-3" value="Визначити механізм зберігання загаданого слова" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-4" value="Розробити алгоритм виведення загаданого слова&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-5" value="Розробити алгоритм вгадування букви слова" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="240" as="sourcePoint" />
+            <mxPoint x="-50" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-47" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-9" value="Не активний параметр видимості (не прихованості)&lt;br&gt;алфавітних символів" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.56" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="100" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-11" value="Активний параметр видимості (не прихованості)&lt;br&gt;для не алфавітних символів(пробіл, тире, апостроф тощо)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.5255" relative="1" as="geometry">
+            <mxPoint x="42" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="AORsJXLqN-FmiDHzJNlS-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="120" as="sourcePoint" />
+            <mxPoint x="184.76" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-13" value="Перевірка чи символ є символом українського алфавіту" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.5922" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AORsJXLqN-FmiDHzJNlS-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="310" as="sourcePoint" />
+            <mxPoint x="120" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="153" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-15" value="Можливість вводити слово приховано" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.6306" y="2" relative="1" as="geometry">
+            <mxPoint x="51" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AORsJXLqN-FmiDHzJNlS-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="350" as="sourcePoint" />
+            <mxPoint x="370" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-17" value="Зберігання символів українського алфавіту як одинин символ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-16" vertex="1" connectable="0">
+          <mxGeometry x="0.0416" y="5" relative="1" as="geometry">
+            <mxPoint x="-59" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="370" as="sourcePoint" />
+            <mxPoint x="320" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-19" value="Вивід символа &#39;*&#39; замість прихованих символів" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.3387" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384.5" y="160" as="sourcePoint" />
+            <mxPoint x="384.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-21" value="Коректний вивід не прихованих символів" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.42" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="553" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-23" value="Отримати символ від користувача" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-22" vertex="1" connectable="0">
+          <mxGeometry x="0.168" y="1" relative="1" as="geometry">
+            <mxPoint x="-51" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="553" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-25" value="Перевірити чи є серед символів слова&amp;nbsp;&lt;br&gt;вгадуваний символ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-24" vertex="1" connectable="0">
+          <mxGeometry x="0.272" y="2" relative="1" as="geometry">
+            <mxPoint x="-71" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.698;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="270" as="sourcePoint" />
+            <mxPoint x="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-29" value="Зробити видимими всі символи слова які&amp;nbsp;&amp;nbsp;&lt;br&gt;були вгадані" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0614" y="3" relative="1" as="geometry">
+            <mxPoint x="11" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="sourcePoint" />
+            <mxPoint x="660" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="460" />
+              <mxPoint x="580" y="400" />
+              <mxPoint x="618" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-31" value="Якщо слово не має прихованих символів&lt;br&gt;(слово було вгадане) зупинити алгоритм вгадування" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.6047" y="3" relative="1" as="geometry">
+            <mxPoint x="59" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="940" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="490" />
+              <mxPoint x="800" y="460" />
+              <mxPoint x="780" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-33" value="Зробити вивід кроків та часу&amp;nbsp;&lt;br&gt;за який слово було вгадане" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.293" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="-308" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="200" as="sourcePoint" />
+            <mxPoint x="920" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="200" />
+              <mxPoint x="780" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="530" as="sourcePoint" />
+            <mxPoint x="1060" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-37" value="Зробити гру інтуітивно зрозумілою &lt;br&gt;(додати зрозумілі пояснення, різний колір тексту)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.4219" relative="1" as="geometry">
+            <mxPoint x="-13" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="270" as="sourcePoint" />
+            <mxPoint x="970" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-39" value="Гра «Поле-Чудес»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.3629" y="-3" relative="1" as="geometry">
+            <mxPoint x="19" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F4KLeoHNWm_HEPsdXIgz-3" target="AORsJXLqN-FmiDHzJNlS-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-42" value="Механізм зберігання слів" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-41" vertex="1" connectable="0">
+          <mxGeometry x="-0.2874" y="-1" relative="1" as="geometry">
+            <mxPoint x="46" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AORsJXLqN-FmiDHzJNlS-1" target="F4KLeoHNWm_HEPsdXIgz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-44" value="Загадане слово" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.2633" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F4KLeoHNWm_HEPsdXIgz-4" target="F4KLeoHNWm_HEPsdXIgz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="290" as="sourcePoint" />
+            <mxPoint x="620" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-46" value="Візуальний вигляд&lt;br&gt;поточного стану слова" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.1682" y="1" relative="1" as="geometry">
+            <mxPoint x="40" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F4KLeoHNWm_HEPsdXIgz-5" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="370" as="sourcePoint" />
+            <mxPoint x="880" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-48" value="Алгоритм гри" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-47" vertex="1" connectable="0">
+          <mxGeometry x="-0.1804" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-300" y="110" as="sourcePoint" />
+            <mxPoint x="-47" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-47" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4KLeoHNWm_HEPsdXIgz-50" value="Можливість використовувати як англійські&lt;div&gt;так і українські символи&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="F4KLeoHNWm_HEPsdXIgz-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.6406" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-4" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="700" y="356" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="sourcePoint" />
+            <mxPoint x="790" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="460" />
+              <mxPoint x="750" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-9" value="Зробити вивід сесії у файл" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="aGp91uyelgR44VTqkkQd-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="5" relative="1" as="geometry">
+            <mxPoint x="-21" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="310" as="sourcePoint" />
+            <mxPoint x="790" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="310" />
+              <mxPoint x="750" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-12" value="Надати можливість почати гру наново, змінити режим, помінятись ролями" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aGp91uyelgR44VTqkkQd-11" vertex="1" connectable="0">
+          <mxGeometry x="0.4675" y="1" relative="1" as="geometry">
+            <mxPoint x="-151" y="150" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-13" value="Зробити вибір ролей&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="aGp91uyelgR44VTqkkQd-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.4146" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="F4KLeoHNWm_HEPsdXIgz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="160" as="sourcePoint" />
+            <mxPoint x="803" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGp91uyelgR44VTqkkQd-16" value="Надати можливість накладання&lt;div&gt;&amp;nbsp;обмежень на час та кількість спроб&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="aGp91uyelgR44VTqkkQd-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.647" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
